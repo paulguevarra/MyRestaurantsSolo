@@ -14,4 +14,13 @@
         android:text="Name"
         tools:layout_editor_absoluteX="120dp"
         tools:layout_editor_absoluteY="124dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/locationTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+    />
 </android.support.constraint.ConstraintLayout>
